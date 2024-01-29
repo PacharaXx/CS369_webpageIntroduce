@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            margin-top: auto;
+            margin-bottom: auto;
+            background: rgba(255, 255, 255, 0.5) !important;
+            color:azure;
+            /* glow */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            
+        }
+
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="/VDOs/bg.mp4" type="video/mp4">
+    </video>
+    <!-- bootstrap card -->
+    <div class="card" style="width: 25rem;">
+        <img src="/images/me.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Pachara Munngoen</h5>
+            <p class="card-text"> I'm 4th year student at TU currently studying in Computer Science. I'm interested in web development. </p>
+    </div>
+</body>
+</html>
